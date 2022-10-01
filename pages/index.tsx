@@ -1,4 +1,4 @@
-import { Container, Typography } from '@mui/material'
+import { Container } from '@mui/material'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <Container>
+      <Container maxWidth="lg">
         <Image src={profilePic} alt="Picture of Rom Raviv"/>
       </Container>
       </main>

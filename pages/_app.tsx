@@ -16,7 +16,8 @@ const MyApp = ({ Component, pageProps }: AppProps) =>{
 
   return (
   <ThemeProvider theme={theme}>
-  <Component {...pageProps} />
+    <CssBaseline />
+    <Component {...pageProps} />
   </ThemeProvider>
   )
 }
